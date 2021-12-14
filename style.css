@@ -1,0 +1,64 @@
+html {
+    background-color: blanchedalmond;
+}
+
+
+h1 {
+    border: 7px solid black;
+    color: rgb(83, 154, 172);
+    position: fixed;
+    font-size:70px;
+    top: 50px;
+    left:500px;
+    
+}
+
+#NFT1{
+    float:right;
+    position:fixed;
+
+    right:200px;
+    top:250px;
+    border: 5px solid;
+
+}
+
+#ExploreButton {
+    background-color: #3eabdd;
+    border: 5px solid black;
+    color: white;
+    font-size:50px;
+    position: fixed;
+    top: 400px;
+    left: 250px;
+}
+a:hover {
+    background-color: #3e49dd;
+} 
+
+#navBar {
+    list-style-type: none;
+    padding: 0px;
+    margin:0px;
+    overflow: hidden;
+    background-color: #444444;
+    /* display:flex;
+    flex-wrap: ; */
+
+}
+
+li a {
+    float:left;
+    display:block;
+    color:white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    border-right: 1px solid black;
+    min-width:60px;
+}
+
+li a:hover {
+    background-color: #222222;
+
+}
